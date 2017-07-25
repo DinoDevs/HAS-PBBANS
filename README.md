@@ -38,6 +38,14 @@ Server Page / Server Browser (BFH)
  - [GCC-Stream](http://www.ggc-stream.net)
  - [Anticheat Inc](http://www.anticheatinc.net)
  
+ 
+ ## ☰ Installation:
+Load the plugin directly from better battlelog's plugin gallery. For manual installation use one of the following JS files:
+ - [Full Code with comments](../master/bin/has-pbbans.latest.bblog.js)
+ - [Minified Code](../master/bin/has-pbbans.latest.bblog.min.js)
+
+Plugin in Better Battlelog's [Forum](https://getbblog.com/en/board/post/118592) and [Plugin Gallery](https://getbblog.com/en/plugin/126727/Has-PBBans).
+
 
 ## ☰ Nerd Stuff : 
 
@@ -111,11 +119,3 @@ and if you are still having problems with ACI use the "noProxyPlease" command to
 http://alites.tk/battlelog-plugins/has-pbbans/chupachups.php?ip=123.456.789.012&port=123456&bf=4&json&refresh&noProxyPlease
 ```
 Sent me a message if you have any problem but I may not reply right away ... but I will reply :)
-
-
-## ☰ PlugIn Links :
-
- - [Full Code with comments](../master/has-pbbans.latest.bblog.js)
- - [Minified Code](../master/has-pbbans.latest.bblog.min.js)
- 
-(The plugin is also available in the PlugIn Gallery. You are adviced to load it from the Gallery.)
