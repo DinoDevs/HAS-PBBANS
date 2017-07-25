@@ -5,6 +5,8 @@
 
 # HAS-PBBANS
 
+![Has-PBBans-Banner](../master/images/banner_680x250.JPG "Has PBBans Banner")
+
 ## ☰ Before we start:
 
 [Better Battlelog](https://getbblog.com/) is a blrowser addon for the webpage [Battlelog](http://battlelog.battlefield.com) which is a Web-UI for Battlefield games like Battlefield 3, Battlefield 4 and Battlefield Hardline. 
