@@ -7,7 +7,7 @@
 ## ☰ Before we start:
 
 [Better Battlelog](https://getbblog.com/) is a blrowser addon for the webpage [Battlelog](http://battlelog.battlefield.com) which is a Web-UI for Battlefield games like Battlefield 3, Battlefield 4 and Battlefield Hardline. 
-This project is a plugin that it is loaded within that addon (Better Battlelog) improving Battlefield 4 Web-UI.
+This project is a plugin that it is loaded within that addon (Better Battlelog) improving Battlefield 3, Battlefield 4 and Battlefield Hardline Web-UI.
 
 
 ## ☰ About :
