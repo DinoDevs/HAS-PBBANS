@@ -25,8 +25,6 @@
 		}
 		
 		if($proxy){
-			//$proxies = array('51.255.33.52:3128','93.237.173.120:80','136.243.175.189:80','136.243.175.186:80','138.201.43.46:3128','136.243.132.17:80','149.202.249.227:3128','94.222.159.217:80','138.201.0.109:3128');
-			
 			// Proxies from : https://proxyrox.com/top-proxies/de
 			$proxies = array(
 				// Germany
@@ -42,8 +40,6 @@
 				'141.85.220.108:8080'
 			);
 			curl_setopt($ch, CURLOPT_PROXY, $proxies[array_rand($proxies)]); //your proxy url
-			//curl_setopt($ch, CURLOPT_PROXYPORT, "8080"); // your proxy port number 
-			//curl_setopt($ch, CURLOPT_PROXYUSERPWD, "username:pass"); //username:pass
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 		}
 		
@@ -52,18 +48,8 @@
 		curl_setopt($ch, CURLOPT_URL,$url);
 		$result=curl_exec($ch);
 		
-		//Print Status / Errors
-		//print_r( curl_getinfo($ch));
-		//print curl_error($ch);
 		return $result;
 	}
-	/* PARMS EXAMPLE
-	$params = array(
-	   "name" => "Ravishanker Kusuma",
-	   "age" => "32",
-	   "location" => "India"
-	);
-	*/
 	
 	// Need IP:port and bf=3 or bf=4
 	if( isset($_GET["ip"]) && ip2long($_GET["ip"]) && isset($_GET["port"]) && is_numeric($_GET["port"]) && isset($_GET["bf"]) &&  ($_GET["bf"]==3 || $_GET["bf"]==4 || $_GET["bf"]=='h') ){
@@ -178,7 +164,6 @@
 				}
 				if( (!in_array($serverIP, $servers[$Streamer]) && !in_array($serverIP, $servers["not-pbbans"])) || $refresh == true ){					
 					// Get server page from PBBANS
-						//$ServerBrowser = getUrl("http://www.pbbans.com/msi-server-".str_replace( array(".", ":"), '-', $serverIP).".html"); old URL
 						$ServerBrowser = getUrl("https://www.pbbans.com/msi.php?searchdata=".$serverIP."&action=1", false);
 						
 					if( !($ServerBrowser === FALSE) ){
@@ -258,7 +243,6 @@
 						$connectionError[$Streamer]=true;
 					}
 				}
-				//http://www.anticheatinc.net/forums/streaming.php?address=94.250.218.222:25200&submit=search
 			}
 		}
 		
