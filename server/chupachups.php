@@ -281,7 +281,7 @@
 		// Create image
 			header("Content-type: image/png");
 			$image = imagecreatefrompng("database/bg.png");
-			$font = './data/times.ttf';
+			$font = './database/times.ttf';
 			$font_fail = imagecolorallocate($image, 255, 160, 125);
 			$font_ban = imagecolorallocate($image, 255, 0, 0);
 			$font_success = imagecolorallocate($image, 100, 190, 250);
