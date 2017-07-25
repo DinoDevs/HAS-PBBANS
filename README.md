@@ -41,8 +41,8 @@ Server Page / Server Browser (BFH)
  
  ## ☰ Installation:
 Load the plugin directly from better battlelog's plugin gallery. For manual installation use one of the following JS files:
- - [Full Code with comments](../master/bin/has-pbbans.latest.bblog.js)
- - [Minified Code](../master/bin/has-pbbans.latest.bblog.min.js)
+ - [Full Code with comments](../master/client/has-pbbans.latest.bblog.js)
+ - [Minified Code](../master/client/has-pbbans.latest.bblog.min.js)
 
 Plugin in Better Battlelog's [Forum](https://getbblog.com/en/board/post/118592) and [Plugin Gallery](https://getbblog.com/en/plugin/126727/Has-PBBans).
 
