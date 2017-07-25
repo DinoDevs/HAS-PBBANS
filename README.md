@@ -1,6 +1,6 @@
 ![Version](https://img.shields.io/badge/Version-1.6.0-green.svg?style=flat)
 ![Release](https://img.shields.io/badge/Release-29.06.2016-green.svg?style=flat)
-![Game](https://img.shields.io/badge/Games-BF4/BF3/BFH-blue.svg?style=flat)
+![Game](https://img.shields.io/badge/Games-Battlefield_4/Battlefield_3/Battlefield_Hardline-blue.svg?style=flat)
 
 # HAS-PBBANS
 
