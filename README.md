@@ -22,13 +22,13 @@ Servers caches are deleted every week.
 
 Images
 Server Browser (BF3 / BF4)
-![Server Browser preview for bf3 and bf4](../master/images/server_browser_preview.png "Server Browser preview for bf3 and bf4")
+![Server Browser preview for bf3 and bf4](../master/images/server_browser_preview.PNG "Server Browser preview for bf3 and bf4")
 
 Server Page (BF3 / BF4)
-![Server Page preview for bf3 and bf4](../master/images/server_page_preview.png "Server Browser page for bf3 and bf4")
+![Server Page preview for bf3 and bf4](../master/images/server_page_preview.PNG "Server Browser page for bf3 and bf4")
 
 Server Page / Server Browser (BFH)
-![Server Browser/Page preview for bfh](../master/images/server_preview_bfh.png "Server Browser/Page preview for bfh")
+![Server Browser/Page preview for bfh](../master/images/server_preview_bfh.PNG "Server Browser/Page preview for bfh")
 
 
 ## ☰ Anticheat Services Links : 
